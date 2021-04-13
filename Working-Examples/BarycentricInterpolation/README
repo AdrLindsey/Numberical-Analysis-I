@@ -1,0 +1,8 @@
+This is a class demo.  It demonstrates barycentric interpolation as
+advocated by Trefethen.
+
+This Python version shows how to do Barycentric interpolation by first
+computing coefficients and caching them, then reusing the coefficients
+each time a new interpolant x is requested.
+
+The thing to run is test_barycentric.py.

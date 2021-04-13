@@ -1,0 +1,8 @@
+This directory holds class demos of three elementary methods for 1D
+integration:  Endpoint, trapezoid, and Simpson's rule.  The things to
+run are:
+
+      test_endpoint.m
+      test_simpsons_rule.m
+      test_trapezoid.m
+
