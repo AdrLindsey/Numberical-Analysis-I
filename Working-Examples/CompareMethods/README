@@ -1,0 +1,23 @@
+This is a class demo of three quadrature methods:
+
+1.  Simpson's 1/3 rule.
+2.  Gauss-Legendre quadrature.
+3.  Clenshaw-Curtis
+
+Each method has its own unit test fcn called test_*.  The unit test is
+just to verify the method is correct.
+
+I also run the three methods against the test 
+functions  (19) and (20) from SIAM Review March 2021, p. 167.  The
+goal is to see how each method works when run against a "difficult"
+function.  The thing to run is run_compare_methods.m.  It creates a
+plot of the method's error vs. number of sample points for each
+method. 
+
+For Gaussian quadrature I grabbed the function lgwt.m from the Matlab
+file exchange.  It computes the Gauss weights and nodes from the
+Legendre Polynomial.  The license accompanying this file is present in
+the .zip file. 
+
+Spring 2021.
+
