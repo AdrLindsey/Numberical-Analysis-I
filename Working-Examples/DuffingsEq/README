@@ -1,3 +1,0 @@
-Compare Forward Euler to RK4 using step size 0.002, then using
-step size 0.01.  Note that Fwd Euler loses resolution.
-

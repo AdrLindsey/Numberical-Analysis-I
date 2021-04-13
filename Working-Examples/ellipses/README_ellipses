@@ -1,5 +1,0 @@
-This program generates a random 2x2 matrix A, then applies
-it to a unit circle (i.e. matrix-vector multiplication), and
-plots the result.
-
-To run it, just type "ellipses".  To leave the program, hit <control>-C. 
